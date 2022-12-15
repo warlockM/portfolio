@@ -1,6 +1,7 @@
 import Experience from "./components/experience"
 import Navbar from "./components/navbar"
 import Image from "next/image"
+import Skills from "./components/skills"
 export default function Home() {
   return (
     <div>
@@ -16,6 +17,7 @@ export default function Home() {
     </div>
     <h1 class="sm:text-3xl md:text-5xl text-center mt-10 font-bold">Experience</h1>
     <Experience />
+    <Skills />
     </div>
   )
 }
