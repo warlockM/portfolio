@@ -25,7 +25,10 @@ export default function Navbar() {
                 </a>
             </div>
             <div>
-                <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-blue-700 hover:bg-white mt-4 lg:mt-0">Download Resume</a>
+                <a href="https://drive.google.com/file/d/1AK3RPyP3tGkvrWNgeAoPbvon5lSKELkV/view?usp=sharing" target="_blank"
+                class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-blue-700 hover:bg-white mt-4 lg:mt-0">
+                    Download Resume
+                    </a>
             </div>
         </div>
     </nav>
