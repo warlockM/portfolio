@@ -1,8 +1,8 @@
 export default function Leadership() {
   return (
-    <div class="grid grid-cols-2 justify-items-center">
-      <h1>Product Management - B2B SaaS platform</h1>
-      <h1>Co-Founder - B2B automation solution for hospitals</h1>
+    <div class="md:grid md:grid-cols-2 justify-items-center">
+      <h1 class="font-bold">Product Manager - SUdoviz Inc.</h1>
+      <h1 class="font-bold">Co-Founder - Medaana Pvt. Ltd.</h1>
     </div>
   );
 }
