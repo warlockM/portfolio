@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Technical from './Technical';
+import Technical from './technical';
 import NonTechnical from './nontechnical';
 import Leadership from './leadership';
 import Interest from './interest';
