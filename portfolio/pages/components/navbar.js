@@ -1,3 +1,4 @@
+import Link from 'next/link';
 export default function Navbar() {
   return (
     <nav class="flex items-center justify-between flex-wrap bg-blue-700 p-6">
@@ -15,10 +16,11 @@ export default function Navbar() {
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
             
             <div>
-                <a href="https://drive.google.com/file/d/1AK3RPyP3tGkvrWNgeAoPbvon5lSKELkV/view?usp=sharing" target="_blank"
+                <Link href="https://drive.google.com/file/d/1AK3RPyP3tGkvrWNgeAoPbvon5lSKELkV/view?usp=sharing">Download Resume</Link>
+                <Link href="/components/resume"
                 class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-blue-700 hover:bg-white mt-4 lg:mt-0">
                     Download Resume
-                    </a>
+                    </Link>
             </div>
         </div>
     </nav>
