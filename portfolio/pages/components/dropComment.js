@@ -8,6 +8,21 @@ export default function DropComment(){
         e.preventDefault()
         const usercomment = commentRef.current.value
       console.log(usercomment)
+      fetch('https://api.airtable.com/v0/appCZqLZ0GMlnXB2N/Comment', {
+        method: 'POST',
+        headers: {
+            'Authorization': 'Bearer keyX4YJYB0MQFToGI',
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            fields: {
+                Comment: usercomment
+            }
+        })
+    })
+    .then((response) => response.json())
+    .then((data) => console.log(data))
+    .catch((error) => console.error(error));
     }
   return (
     <div>
