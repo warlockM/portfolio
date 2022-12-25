@@ -1,7 +1,6 @@
 import { useState, useRef } from "react";
 
 export default function DropComment(){
-    const [comment, setComment] = useState("")
     const commentRef = useRef();
 
     function handleSubmit(e) {
