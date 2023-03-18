@@ -4,6 +4,7 @@ import Image from "next/image"
 import Skills from "./components/skills"
 import Footer from "./components/footer"
 import DropComment from "./components/dropComment"
+
 export default function Home() {
   return (
     <div>
