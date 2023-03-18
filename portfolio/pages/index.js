@@ -16,7 +16,7 @@ export default function Home() {
       <div>
       <h1 class="p-2 sm:text-lg md:text-3xl lg:text-5xl font-extrabold">Are you looking for a dynamic professional with Software Engineering and Leadership Experience?</h1>
       <p class="p-2 sm:text-md md:text-xl lg:text-3xl">You are in the right place.</p>
-          <a href="https://calendly.com/mayankraj07/meet-mayank" target="_blank">
+          <a href="https://calendly.com/mayankraj07/meet-mayank" target="_blank" class="connect_with_me">
             <button class="mt-4 ml-2 p-4 bg-blue-700 text-white rounded-md">Connect with me</button>
           </a>
       </div>
