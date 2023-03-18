@@ -6,7 +6,6 @@ export default function DropComment(){
     function handleSubmit(e) {
         e.preventDefault()
         const usercomment = commentRef.current.value
-      console.log(usercomment)
       fetch('https://api.airtable.com/v0/appCZqLZ0GMlnXB2N/Comment', {
         method: 'POST',
         headers: {
@@ -22,6 +21,7 @@ export default function DropComment(){
     .then((response) => response.json())
     .then((data) => console.log(data))
     .catch((error) => console.error(error));
+    alert("Thanks for your feedback")
     }
   return (
     <div>
